@@ -29,3 +29,17 @@ Before running the script, place your data directory location for both train and
 ```sh
 python train.py --epochs 100 --num_classes 1000 --version 1.0
 ```
+
+## Citation
+
+```
+@misc{iandola2016squeezenetalexnetlevelaccuracy50x,
+      title={SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size}, 
+      author={Forrest N. Iandola and Song Han and Matthew W. Moskewicz and Khalid Ashraf and William J. Dally and Kurt Keutzer},
+      year={2016},
+      eprint={1602.07360},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/1602.07360}, 
+}
+```
